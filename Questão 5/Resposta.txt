@@ -1,0 +1,10 @@
+Considerando o efeito joule existente em componentes elétricos, e considerando que todas as lâmpadas estão incialmente desligadas por um longo período de tempo, eu usaria o seguinte método:
+1 - Ligaria uma lâmpada qualquer, escolhida arbitrariamente, e marcaria qual o interruptor pressionado.
+2 - Deixaria a lâmpada ligada por tempo suficiente para seu aquecimento.
+3 - Desligaria a lâmpada e ligaria uma segunda lâmpada qualquer, excluindo a primeira que foi selecionada.
+4 - Escolheria arbitrariamente duas salas diferentes para ir, onde teria 3 possíveis situações para cada sala:
+ -> Se a lâmpada estivesse acessa, o interruptor dessa sala seria o que está acionado.
+ -> Se a lâmpada está apagada, porém está aquecida, o interruptor dessa sala é o primeiro interruptor escolhido, que foi marcado.
+ -> Se a lâmpada está apagada e está fria, o interruptor dessa sala é o interruptor que não foi acionado em nenhuma das escolhas anteriores.
+
+Para cada sala escolhida para ir, uma dessas opções se mostraria verdadeira, e por exclusão seria possível definir a opção da terceira sala que não foi visitada.
